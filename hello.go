@@ -2,9 +2,15 @@ package main
 
 import "fmt"
 
+const hello = "Hello, "
+
 // Hello is
 func Hello(name string) string {
-	return "Hello, " + name
+	if name == "" {
+		name = "world"
+	}
+
+	return hello + name
 }
 
 func main() {
