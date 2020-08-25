@@ -6,16 +6,20 @@ import (
 )
 
 func TestSum(t *testing.T) {
-	got := Sum(2, 2)
-	want := 4
+	t.Run("should return a sum of slice", func(t *testing.T) {
+		numbers := []int{1, 2, 3}
+		got := Sum(numbers)
+		want := 6
 
-	if got != want {
-		t.Errorf("\ngot: %d\nwant: %d", got, want)
-	}
+		if got != want {
+			t.Errorf("\ngot: %d\nwant: %d\ngiven: %v", got, want, numbers)
+		}
+	})
 }
 
 func ExampleSum() {
-	sum := Sum(1, 5)
+	numbers := []int{1, 2, 3, 4, 5}
+	sum := Sum(numbers)
 	fmt.Println(sum)
-	// Output: 6
+	// Output: 15
 }
