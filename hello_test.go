@@ -11,15 +11,26 @@ func TestHello(t *testing.T) {
 	}
 
 	t.Run("should say hello", func(t *testing.T) {
-		got := Hello("Lucas")
+		got := Hello("Lucas", "")
 		want := "Hello, Lucas"
 		error(t, got, want)
 	})
 
 	t.Run("should say 'Hello, world' when a empty value is passed", func(t *testing.T) {
-		got := Hello("")
+		got := Hello("", "")
 		want := "Hello, world"
 		error(t, got, want)
 	})
 
+	t.Run("should return message in spanish", func(t *testing.T) {
+		got := Hello("Elodie", "spanish")
+		want := "Hola, Elodie"
+		error(t, got, want)
+	})
+
+	t.Run("should return message in french", func(t *testing.T) {
+		got := Hello("Any", "french")
+		want := "Bonjour, Any"
+		error(t, got, want)
+	})
 }
