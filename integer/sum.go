@@ -10,3 +10,13 @@ func Sum(numbers []int) int {
 
 	return sum
 }
+
+// SumAll is
+func SumAll(numbers ...[]int) []int {
+	var sum []int
+	for _, number := range numbers {
+		sum = append(sum, Sum(number))
+	}
+
+	return sum
+}
