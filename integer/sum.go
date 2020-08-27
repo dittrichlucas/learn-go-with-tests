@@ -20,3 +20,18 @@ func SumAll(numbers ...[]int) []int {
 
 	return sum
 }
+
+// SumAllRest is
+func SumAllRest(numbers ...[]int) []int {
+	var sum []int
+	for _, number := range numbers {
+		if len(number) == 0 {
+			sum = append(sum, 0)
+		} else {
+			end := number[1:]
+			sum = append(sum, Sum(end))
+		}
+	}
+
+	return sum
+}
