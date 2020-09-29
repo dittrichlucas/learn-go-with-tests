@@ -1,6 +1,10 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"net/http"
+	g "./greeting"
+)
 
 const hello = "Hello, "
 const hola = "Hola, "
@@ -31,5 +35,10 @@ func prefix(language string) (prefix string) {
 }
 
 func main() {
+	err := http.ListenAndServe(":5000", http.HandlerFunc(g.HandlerGreeting))
+
+	if err != nil {
+		fmt.Println(err)
+	}
 	fmt.Println(Hello("name", ""))
 }
