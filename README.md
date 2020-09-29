@@ -10,9 +10,9 @@ Esse repositório contém meus exercícios práticos referentes ao curso ["Apren
     - [x] Iteração (`./iteration`)
     - [x] Arrays e slices (`./integer`)
     - [x] Estruturas, métodos e interfaces (`./geometry`)
-    - [ ] Ponteiros e erros (`./wallet`)
-    - [ ] Maps
-    - [ ] Injeção de dependências
+    - [x] Ponteiros e erros (`./wallet`)
+    - [x] Maps (`./dictionary`)
+    - [x] Injeção de dependências (`./greeting`)
     - [ ] Mocks
     - [ ] Concorrência
     - [ ] Select
