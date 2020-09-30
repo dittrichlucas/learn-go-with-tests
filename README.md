@@ -13,7 +13,7 @@ Esse repositório contém meus exercícios práticos referentes ao curso ["Apren
     - [x] Ponteiros e erros (`./wallet`)
     - [x] Maps (`./dictionary`)
     - [x] Injeção de dependências (`./greeting`)
-    - [ ] Mocks
+    - [x] Mocks (`./count`)
     - [ ] Concorrência
     - [ ] Select
     - [ ] Reflexão
