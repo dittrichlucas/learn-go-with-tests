@@ -14,7 +14,7 @@ Esse repositório contém meus exercícios práticos referentes ao curso ["Apren
     - [x] Maps (`./dictionary`)
     - [x] Injeção de dependências (`./greeting`)
     - [x] Mocks (`./count`)
-    - [ ] Concorrência
+    - [ ] Concorrência (`./concurrency`)
     - [ ] Select
     - [ ] Reflexão
     - [ ] Sync
