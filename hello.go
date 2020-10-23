@@ -3,8 +3,6 @@ package main
 import (
 	"fmt"
 	"net/http"
-
-	g "./greeting"
 )
 
 const hello = "Hello, "
