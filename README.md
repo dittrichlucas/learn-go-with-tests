@@ -18,7 +18,7 @@ Esse repositório contém meus exercícios práticos referentes ao curso ["Apren
     - [x] Select (`./runner`)
     - [x] Reflexão (`./recursion`)
     - [x] Sync (`./sync`)
-    - [ ] Contexto
+    - [x] Contexto (`./context`)
 
 - [ ] Criando uma aplicação
     - [ ] Introdução
