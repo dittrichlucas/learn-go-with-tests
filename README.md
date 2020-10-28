@@ -3,9 +3,9 @@ Esse repositório contém meus exercícios práticos referentes ao curso ["Apren
 
 ### Checklist
 
-- [ ] Primeiros passos com Go
+- [x] Primeiros passos com Go
     - [x] Instalação do Go
-    - [x] Olá, mundo (`hello.go e hello_test.go`)
+    - [x] Olá, mundo (`./hello`)
     - [x] Inteiros (`./integer`)
     - [x] Iteração (`./iteration`)
     - [x] Arrays e slices (`./integer`)
@@ -21,7 +21,7 @@ Esse repositório contém meus exercícios práticos referentes ao curso ["Apren
     - [x] Contexto (`./context`)
 
 - [ ] Criando uma aplicação
-    - [ ] Introdução
+    - [x] Introdução
     - [ ] Servidor HTTP
     - [ ] JSON, roteamento e aninhamento
     - [ ] IO e sortin
